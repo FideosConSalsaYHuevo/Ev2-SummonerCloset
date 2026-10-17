@@ -1,4 +1,5 @@
-import { ChampionCard, TarjetaCampeon } from '../molecules/TarjetaCampeon';
+import { TarjetaCampeon } from '../molecules/TarjetaCampeon';
+import '../../styles/organisms/SeccionCampeones.css';
 
 export function SeccionCampeones({ champions }) {
    return (

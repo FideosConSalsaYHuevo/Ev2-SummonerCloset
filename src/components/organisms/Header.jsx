@@ -1,3 +1,5 @@
+import '../../styles/organisms/Header.css';
+
 export function Header() {
     return (
         <header className="navbar-custom">

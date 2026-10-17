@@ -1,0 +1,37 @@
+footer {
+    background-color: #09101f;
+    color: white;
+    padding: 16px 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.footer-paginas,
+.riot {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+ 
+.footer-paginas h3,
+.riot h3 {
+    font-family: 'BeaufortLoL', 'Cinzel', serif;
+    color: #fcb674;
+    font-size: 16px;
+    margin: 0;
+}
+ 
+.derechos {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+footer a {
+    color: #fcb674;
+    text-decoration: none;
+}

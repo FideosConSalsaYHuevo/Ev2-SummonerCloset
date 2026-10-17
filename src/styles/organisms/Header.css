@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e293b;
+    padding: 15px 30px;
+}
+
+header h1 {
+    font-family: 'BeaufortLoL', 'Cinzel', serif;
+    color: #fcb674;
+    letter-spacing: 1px;
+    font-size: 32px;
+    margin: 0;
+    padding-right: 10px;
+}
+
+header nav {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+header a {
+    font-family: 'BeaufortLoL', 'Cinzel', serif;
+    color: #fcb674;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #ffffff;
+}

@@ -1,5 +1,6 @@
 import { Input } from '../atoms/Input';
 import { Boton } from '../atoms/Boton';
+import '../../styles/molecules/Buscador.css';
 
 export function Buscador({ searchTerm, onSearchChange }) {
     return (

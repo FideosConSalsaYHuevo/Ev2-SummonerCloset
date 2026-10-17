@@ -1,5 +1,6 @@
 import { Imagen } from '../atoms/Imagen';
 import { Texto } from '../atoms/Texto';
+import '../../styles/molecules/TarjetaCampeon.css';
 
 export function TarjetaCampeon({ name, image, onClick }) {
    return (
