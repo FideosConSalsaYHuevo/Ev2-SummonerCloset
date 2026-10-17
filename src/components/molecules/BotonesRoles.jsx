@@ -2,12 +2,12 @@ import { Boton } from '../atoms/Boton';
 
 export function BotonesRoles({ onSelectRole }) {
     const roles = [
-        { id: 'todos', nombre: 'Todos', icono: '/imagenes/roles/all.png' },
-        { id: 'top', nombre: 'Top', icono: '/imagenes/roles/top.png' },
-        { id: 'jungle', nombre: 'Jungle', icono: '/imagenes/roles/jungle.png' },
-        { id: 'middle', nombre: 'Middle', icono: '/imagenes/roles/middle.png' },
-        { id: 'bottom', nombre: 'Bottom', icono: '/imagenes/roles/bottom.png' },
-        { id: 'support', nombre: 'Support', icono: '/imagenes/roles/support.png' }
+        { id: 'todos', nombre: 'Todos', icono: '/imagenes/global/Specialist_icon.webp' },
+        { id: 'top', nombre: 'Top', icono: '/imagenes/global/Top_icon.webp' },
+        { id: 'jungle', nombre: 'Jungle', icono: '/imagenes/global/Jungle_icon.webp' },
+        { id: 'middle', nombre: 'Middle', icono: '/imagenes/global/Middle_icon.webp' },
+        { id: 'bottom', nombre: 'Bottom', icono: '/imagenes/global/Bottom_icon.webp' },
+        { id: 'support', nombre: 'Support', icono: '/imagenes/global/Support_icon.webp' }
     ];
 
     return (
