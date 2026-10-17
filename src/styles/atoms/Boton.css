@@ -1,0 +1,7 @@
+.boton-filtro.active-role {
+    border-color: #fcb674 !important;
+    background-color: #1e293b !important;
+    box-shadow: 0 0 10px #fcb674 !important;
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+}

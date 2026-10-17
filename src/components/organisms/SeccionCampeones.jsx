@@ -1,4 +1,5 @@
-import { ChampionCard } from '../molecules/TarjetaCampeon';
+import { TarjetaCampeon } from '../molecules/TarjetaCampeon';
+import '../../styles/organisms/SeccionCampeones.css';
 
 export function SeccionCampeones({ champions }) {
    return (
@@ -6,7 +7,7 @@ export function SeccionCampeones({ champions }) {
            <h2>Campeones</h2>
            <div className="campeones-tarjetas">
                {champions.map((champ) => (
-                   <ChampionCard 
+                   <TarjetaCampeon 
                        key={champ.id} 
                        name={champ.name} 
                        image={champ.image} 
