@@ -1,4 +1,4 @@
-import { ChampionCard } from '../molecules/TarjetaCampeon';
+import { ChampionCard, TarjetaCampeon } from '../molecules/TarjetaCampeon';
 
 export function SeccionCampeones({ champions }) {
    return (
@@ -6,7 +6,7 @@ export function SeccionCampeones({ champions }) {
            <h2>Campeones</h2>
            <div className="campeones-tarjetas">
                {champions.map((champ) => (
-                   <ChampionCard 
+                   <TarjetaCampeon 
                        key={champ.id} 
                        name={champ.name} 
                        image={champ.image} 

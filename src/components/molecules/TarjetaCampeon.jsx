@@ -1,9 +1,9 @@
 import { Imagen } from '../atoms/Imagen';
 import { Texto } from '../atoms/Texto';
 
-export function ChampionCard({ name, image, onClick }) {
+export function TarjetaCampeon({ name, image, onClick }) {
    return (
-       <article className="campeon-tarjeta" onClick={onClick}>
+       <article className="tarjeta-campeon" onClick={onClick}>
            <Imagen src={image} alt={name} />
            <Texto variant="p">{name}</Texto>
        </article>
