@@ -14,23 +14,21 @@ function App() {
         return champ.role && champ.role.toLowerCase() === selectedRole.toLowerCase();
     });
 
-  return (
-    <div className="App">
-        <Header />
-
-        <main>
-            <section className="buscador">
-                <div className="buscador-superior">
-                    <h2>Buscador</h2>
-                    <BotonesRoles onSelectRole={(role) => setSelectedRole(role)} />
-                </div>
-            </section>
-            <SeccionCampeones champions={selectedRole === 'todos' ? championsList : filteredChampions} />
-        </main>
-
-        <Footer />
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header />
+            <main>
+                <section className="buscador">
+                    <div className="buscador-superior">
+                        <h2>Buscador</h2>
+                        <BotonesRoles onSelectRole={(role) => setSelectedRole(role)} />
+                    </div>
+                </section>
+                <SeccionCampeones champions={selectedRole === 'todos' ? championsList : filteredChampions} />
+            </main>
+            <Footer />
+        </div>
+    );
 }
 
 export default App;
