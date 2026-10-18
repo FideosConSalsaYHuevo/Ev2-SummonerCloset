@@ -1,7 +1,11 @@
 import { Routes, Route } from 'react-router-dom';
+import { Home } from './pages/Home';
+import { Login } from './pages/Login';
+import { Registro } from './pages/Registro';
+import { Admin } from './pages/Admin';
+import { RutaProtegida } from './routes/RutaProtegida';
 import { Header } from './components/organisms/Header';
 import { Footer } from './components/organisms/Footer';
-import { Home } from './pages/Home';
 import { VerCampeon } from './pages/VerCampeon';
 import './App.css';
 
@@ -11,8 +15,17 @@ function App() {
             <Header />
             <Routes>
                 <Route path="/" element={<Home />} />
-
+                <Route path="/login" element={<Login />} />
+                <Route path="/registro" element={<Registro />} />
                 <Route path="/champion/:id" element={<VerCampeon />} />
+                <Route
+                    path="/admin"
+                    element={
+                        <RutaProtegida rol="admin">
+                            <Admin />
+                        </RutaProtegida>
+                    }
+                />
             </Routes>
             <Footer />
         </div>

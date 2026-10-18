@@ -1,11 +1,12 @@
-export function Input({ type = 'text', placeholder, value, onChange, className }) {
-    return (
-        <input 
-            type={type}
-            placeholder={placeholder}
-            value={value}
-            onChange={onChange}
-            className={className}
-        />
-    );
+export function Input({ type = 'text', name, placeholder, value, onChange, className }) {
+  return (
+    <input
+      type={type}
+      name={name}
+      placeholder={placeholder}
+      value={value}
+      onChange={onChange}
+      className={className}
+    />
+  );
 }
