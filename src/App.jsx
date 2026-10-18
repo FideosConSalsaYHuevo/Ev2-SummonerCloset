@@ -7,6 +7,7 @@ import { RutaProtegida } from './routes/RutaProtegida';
 import { Header } from './components/organisms/Header';
 import { Footer } from './components/organisms/Footer';
 import { VerCampeon } from './pages/VerCampeon';
+import { Favoritos } from '../pages/Favoritos';
 import './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
                 <Route path="/login" element={<Login />} />
                 <Route path="/registro" element={<Registro />} />
                 <Route path="/champion/:id" element={<VerCampeon />} />
+                <Route path="/favoritos" element={<Favoritos />} />
                 <Route
                     path="/admin"
                     element={

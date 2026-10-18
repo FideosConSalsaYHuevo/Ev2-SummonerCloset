@@ -3,6 +3,9 @@ import { SeccionCampeones } from '../components/organisms/SeccionCampeones';
 import { BotonesRoles } from '../components/molecules/BotonesRoles';
 import { Buscador } from '../components/molecules/Buscador';
 import { getChampions } from '../data/champions';
+import { useFavoritos } from '../hooks/useFavoritos';
+
+const { esFavorito, toggleFavorito } = useFavoritos();
 
 export function Home() {
     const championsList = getChampions();
@@ -33,7 +36,11 @@ export function Home() {
                     />
                 </div>
             </section>
-            <SeccionCampeones champions={filteredChampions} />
+            <SeccionCampeones
+                champions={filteredChampions}
+                esFavorito={esFavorito}
+                onToggleFavorito={toggleFavorito}
+            />
         </main>
     );
 }
