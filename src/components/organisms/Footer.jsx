@@ -7,12 +7,12 @@ export function Footer() {
                 <h3>NUESTRAS REDES</h3>
                 <a href="https://www.facebook.com/RiotGames" target="_blank" rel="noreferrer">
                     <i>
-                        <img src="imagenes/global/facebook.webp" alt="Facebook" />
+                        <img src={`${import.meta.env.BASE_URL}imagenes/global/facebook.webp`} alt="Facebook" />
                     </i> Facebook
                 </a>
                 <a href="https://www.instagram.com/riotgames" target="_blank" rel="noreferrer">
                     <i>
-                        <img src="imagenes/global/instagram.webp" alt="Instagram" />
+                        <img src={`${import.meta.env.BASE_URL}imagenes/global/instagram.webp`} alt="Instagram" />
                     </i> Instagram
                 </a>
             </div>
@@ -25,7 +25,7 @@ export function Footer() {
                 <h3>PÁGINA OFICIAL</h3>
                 <a href="https://www.leagueoflegends.com" className="riot-link" target="_blank" rel="noreferrer">
                     <i>
-                        <img src="imagenes/global/leagueoflegends.webp" alt="League of Legends" />
+                        <img src={`${import.meta.env.BASE_URL}imagenes/global/leagueoflegends.webp`} alt="League of Legends" />
                     </i> League of Legends
                 </a>
             </div>
