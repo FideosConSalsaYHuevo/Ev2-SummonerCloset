@@ -14,14 +14,18 @@ export function Header() {
         navigate('/');
     };
     return (
-        <header className="navbar-custom">
-            <h1>SummonerCloset</h1>
+        <header className="header">
+            <Link to="/">
+                <h1 className="logo-title" style={{ color: '#fcb674', cursor: 'pointer' }}>
+                    SummonerCloset
+                </h1>
+            </Link>
             <nav>
                 <Link to="/">inicio</Link>
                 <a href="#footer">nosotros</a>
                 <a href="#footer">contacto</a>
             </nav>
-        
+
         {usuario === null && (
         <>
             <Link to="/login">iniciar sesión</Link>
@@ -35,6 +39,9 @@ export function Header() {
             <Boton texto="cerrar sesión" onClick={handleCerrarSesion} className="btn btn-outline-light btn-sm" />
         </>
         )}
-                </header>
+        </header>
             );
 }
+
+export default Header;
+
