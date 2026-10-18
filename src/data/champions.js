@@ -11586,7 +11586,7 @@ export const getChampions = () => ([
         "id": "yunara",
         "name": "Yunara",
         "role": "bottom",
-        "image": `${import.meta.env.BASE_URL}imagenes/campeones/Yunara/Spirit_Blossom_Springs_Yunara.webp`,
+        "image": `${import.meta.env.BASE_URL}imagenes/campeones/Yunara/Yunara.webp`,
         "description": "Yunara es un campeón legendario de Runaterra dentro del universo de League of Legends.",
         "skins": [
             {
@@ -11674,7 +11674,7 @@ export const getChampions = () => ([
         "id": "zaahen",
         "name": "Zaahen",
         "role": "top",
-        "image": `${import.meta.env.BASE_URL}imagenes/campeones/Zaahen/Immortal_Journey_Zaahen.webp`,
+        "image": `${import.meta.env.BASE_URL}imagenes/campeones/Zaahen/Zaahen.webp`,
         "description": "Zaahen es un campeón legendario de Runaterra dentro del universo de League of Legends.",
         "skins": [
             {
