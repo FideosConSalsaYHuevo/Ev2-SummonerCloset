@@ -1,0 +1,17 @@
+.campo-formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 12px;
+  text-align: left;
+}
+
+.campo-formulario label {
+  color: #fcb674;
+}
+
+.campo-formulario__error {
+  margin: 0;
+  color: #ff6b6b;
+  font-size: 0.85rem;
+}
