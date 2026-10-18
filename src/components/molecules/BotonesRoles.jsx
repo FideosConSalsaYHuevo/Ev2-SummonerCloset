@@ -3,12 +3,12 @@ import '../../styles/molecules/BotonesRoles.css';
 
 export function BotonesRoles({ onSelectRole, selectedRole }) {
     const roles = [
-        { id: 'todos', nombre: 'Todos', icono: '/imagenes/global/Specialist_icon.webp' },
-        { id: 'top', nombre: 'Top', icono: '/imagenes/global/Top_icon.webp' },
-        { id: 'jungle', nombre: 'Jungle', icono: '/imagenes/global/Jungle_icon.webp' },
-        { id: 'middle', nombre: 'Middle', icono: '/imagenes/global/Middle_icon.webp' },
-        { id: 'bottom', nombre: 'Bottom', icono: '/imagenes/global/Bottom_icon.webp' },
-        { id: 'support', nombre: 'Support', icono: '/imagenes/global/Support_icon.webp' }
+        { id: 'todos', nombre: 'Todos', icono: `${import.meta.env.BASE_URL}imagenes/global/Specialist_icon.webp` },
+        { id: 'top', nombre: 'Top', icono: `${import.meta.env.BASE_URL}imagenes/global/Top_icon.webp` },
+        { id: 'jungle', nombre: 'Jungle', icono: `${import.meta.env.BASE_URL}imagenes/global/Jungle_icon.webp` },
+        { id: 'middle', nombre: 'Middle', icono: `${import.meta.env.BASE_URL}imagenes/global/Middle_icon.webp` },
+        { id: 'bottom', nombre: 'Bottom', icono: `${import.meta.env.BASE_URL}imagenes/global/Bottom_icon.webp` },
+        { id: 'support', nombre: 'Support', icono: `${import.meta.env.BASE_URL}imagenes/global/Support_icon.webp` }
     ];
 
     return (
