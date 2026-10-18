@@ -5,9 +5,9 @@ import { Buscador } from '../components/molecules/Buscador';
 import { getChampions } from '../data/champions';
 import { useFavoritos } from '../hooks/useFavoritos';
 
-const { esFavorito, toggleFavorito } = useFavoritos();
-
 export function Home() {
+    const { esFavorito, toggleFavorito } = useFavoritos();
+    
     const championsList = getChampions();
     const [searchTerm, setSearchTerm] = useState('');
     const [selectedRole, setSelectedRole] = useState('todos');

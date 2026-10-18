@@ -7,7 +7,7 @@ import { RutaProtegida } from './routes/RutaProtegida';
 import { Header } from './components/organisms/Header';
 import { Footer } from './components/organisms/Footer';
 import { VerCampeon } from './pages/VerCampeon';
-import { Favoritos } from '../pages/Favoritos';
+import { Favoritos } from './pages/Favoritos';
 import './App.css';
 
 function App() {
