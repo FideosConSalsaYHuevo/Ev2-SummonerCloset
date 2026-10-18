@@ -3,9 +3,9 @@ import '../../styles/organisms/SeccionSkins.css';
 
 export function SeccionSkins({ skins }) {
     return (
-        <section className="campeones mb-5">
+        <section className="seccion-skins mb-5">
             <h2>Aspectos (Skins)</h2>
-            <div className="campeones-tarjetas">
+            <div className="skins-grid">
                 {skins.map((skin) => (
                     <TarjetaSkin 
                         key={skin.id}
