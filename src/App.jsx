@@ -1,39 +1,24 @@
-import { useState } from 'react';
+import { Routes, Route } from 'react-router-dom';
 import { Header } from './components/organisms/Header';
 import { Footer } from './components/organisms/Footer';
-import { SeccionCampeones } from './components/organisms/SeccionCampeones';
-import { BotonesRoles } from './components/molecules/BotonesRoles';
-import { Buscador } from './components/molecules/Buscador';
-import { getChampions } from './data/champions';
+import { Home } from './pages/Home';
+import { VerCampeon } from './pages/VerCampeon';
+import { IniciarSesion } from './pages/IniciarSesion';
+import { CrearCuenta } from './pages/CrearCuenta';
 import './App.css';
 
 function App() {
-  const championsList = getChampions();
-  const [searchTerm, setSearchTerm] = useState('');
-  const [selectedRole, setSelectedRole] = useState('todos');
-  const filteredChampions = championsList.filter((champ) => {
-        const matchesRole = selectedRole === 'todos' || (champ.role && champ.role.toLowerCase() === selectedRole.toLowerCase());
-        const matchesSearch = champ.name.toLowerCase().includes(searchTerm.toLowerCase());
-        return matchesRole && matchesSearch;
-    });
-
     return (
-        <div className="App">
+        <div className="App d-flex flex-column min-vh-100">
             <Header />
-            <main>
-                <section className="buscador">
-                    <div className="buscador-superior">
-                        <h2>Buscador</h2>
-                        <Buscador 
-                            searchTerm={searchTerm} 
-                            onSearchChange={(e) => setSearchTerm(e.target.value)} 
-                        />
-                        <BotonesRoles onSelectRole={(role) => setSelectedRole(role)}
-                        selectedRole={selectedRole}/>
-                    </div>
-                </section>
-                <SeccionCampeones champions={filteredChampions} />
-            </main>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                
+                <Route path="/login" element={<IniciarSesion />} />
+                <Route path="/register" element={<CrearCuenta />} />
+
+                <Route path="/champion/:id" element={<VerCampeon />} />
+            </Routes>
             <Footer />
         </div>
     );

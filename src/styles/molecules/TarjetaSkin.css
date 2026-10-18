@@ -1,0 +1,23 @@
+.campeon-tarjeta {
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+    background-color: #09101f;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+.campeon-tarjeta img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.campeon-tarjeta p {
+    text-align: center;
+    color: #ffcb9a;
+    font-family: 'Spiegel', 'Cinzel', serif;
+    font-size: 18px;
+    margin: 10px 0 0 0;
+}
