@@ -1,9 +1,14 @@
+import { Link } from 'react-router-dom';
 import '../../styles/organisms/Header.css';
 
 export function Header() {
     return (
-        <header className="navbar-custom">
-            <h1>SummonerCloset</h1>
+        <header className="header">
+            <Link to="/">
+                <h1 className="logo-title" style={{ color: '#fcb674', cursor: 'pointer' }}>
+                    SummonerCloset
+                </h1>
+            </Link>
             <nav>
                 <a href="#">inicio</a>
                 <a href="#footer">nosotros</a>
@@ -13,3 +18,5 @@ export function Header() {
         </header>
     );
 }
+
+export default Header;

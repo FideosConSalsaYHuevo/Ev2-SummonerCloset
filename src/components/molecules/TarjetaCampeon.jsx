@@ -4,7 +4,7 @@ import '../../styles/molecules/TarjetaCampeon.css';
 
 export function TarjetaCampeon({ name, image, onClick }) {
    return (
-       <article className="tarjeta-campeon" onClick={onClick}>
+       <article className="campeon-tarjeta" onClick={onClick}>
            <Imagen src={image} alt={name} />
            <Texto variant="p">{name}</Texto>
        </article>
