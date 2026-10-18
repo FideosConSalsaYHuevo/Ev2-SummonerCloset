@@ -888,7 +888,7 @@ export const getChampions = () => ([
         "id": "aurelion_sol",
         "name": "Aurelion Sol",
         "role": "middle",
-        "image": `${import.meta.env.BASE_URL}imagenes/campeones/Aurelion_Sol/Ashen_Lord_Aurelion_Sol.webp`,
+        "image": `${import.meta.env.BASE_URL}imagenes/campeones/Aurelion_Sol/Aurelion_Sol.webp`,
         "description": "Aurelion Sol es un campeón legendario de Runaterra dentro del universo de League of Legends.",
         "skins": [
             {
@@ -11591,11 +11591,16 @@ export const getChampions = () => ([
         "skins": [
             {
                 "id": 1,
+                "name": "Yunara",
+                "image": `${import.meta.env.BASE_URL}imagenes/campeones/Yunara/Yunara.webp`
+            },
+            {
+                "id": 2,
                 "name": "Spirit Blossom Springs Yunara",
                 "image": `${import.meta.env.BASE_URL}imagenes/campeones/Yunara/Spirit_Blossom_Springs_Yunara.webp`
             },
             {
-                "id": 2,
+                "id": 3,
                 "name": "T1 Yunara",
                 "image": `${import.meta.env.BASE_URL}imagenes/campeones/Yunara/T1_Yunara.webp`
             }
@@ -11674,6 +11679,11 @@ export const getChampions = () => ([
         "skins": [
             {
                 "id": 1,
+                "name": "Zaahen",
+                "image": `${import.meta.env.BASE_URL}imagenes/campeones/Zaahen/Zaahen.webp`
+            },
+            {
+                "id": 2,
                 "name": "Immortal Journey Zaahen",
                 "image": `${import.meta.env.BASE_URL}imagenes/campeones/Zaahen/Immortal_Journey_Zaahen.webp`
             }
