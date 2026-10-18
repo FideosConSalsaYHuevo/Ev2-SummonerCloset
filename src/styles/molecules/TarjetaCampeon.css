@@ -14,8 +14,7 @@
     display: block;
 }
 
-.campeon-tarjeta p, 
-.campeon-tarjeta .texto {
+.campeon-tarjeta p {
     text-align: center;
     color: #ffcb9a;
     font-family: 'Spiegel', 'Cinzel', serif;

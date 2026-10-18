@@ -1,0 +1,42 @@
+.roles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 5px;
+}
+
+.roles button {
+    max-width: 55px;
+}
+
+.roles .boton-filtro {
+    width: 36px;
+    height: 36px;
+    background-color: #16274d;
+    border-radius: 10px;
+    border: 2px solid #C79B3B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.roles .boton-filtro:hover {
+    border-color: #fcb674;
+    transform: scale(1.05);
+}
+
+.boton-filtro.active-role {
+    border-color: #fcb674 !important;
+    background-color: #1e293b !important;
+    box-shadow: 0 0 10px #fcb674 !important;
+    transform: scale(1.08);
+}
+
+.roles .boton-filtro img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}

@@ -24,11 +24,12 @@ function App() {
                 <section className="buscador">
                     <div className="buscador-superior">
                         <h2>Buscador</h2>
-                        <BotonesRoles onSelectRole={(role) => setSelectedRole(role)} />
                         <Buscador 
                             searchTerm={searchTerm} 
                             onSearchChange={(e) => setSearchTerm(e.target.value)} 
                         />
+                        <BotonesRoles onSelectRole={(role) => setSelectedRole(role)}
+                        selectedRole={selectedRole}/>
                     </div>
                 </section>
                 <SeccionCampeones champions={filteredChampions} />
