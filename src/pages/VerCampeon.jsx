@@ -6,27 +6,14 @@ import { SeccionSkins } from '../components/organisms/SeccionSkins';
 export function VerCampeon() {
     const { id } = useParams();
     const championsList = getChampions();
-    
     const champion = championsList.find((c) => c.id.toLowerCase() === id.toLowerCase());
-
-    if (!champion) {
-        return (
-            <Container className="my-5 text-center text-light flex-grow-1">
-                <h2 style={{ color: '#fcb674' }}>Campeón no encontrado</h2>
-                <Link to="/" className="btn btn-warning mt-3">Volver al inicio</Link>
-            </Container>
-        );
-    }
 
     return (
         <main className="flex-grow-1 py-4">
             <Container>
                 <div className="mb-4">
-                    <Link to="/" className="btn btn-outline-warning btn-sm mb-3">← Volver al inicio</Link>
-                    <h1 style={{ fontFamily: 'BeaufortLoL, serif', color: '#fcb674' }}>{champion.name}</h1>
+                    <h1 style={{ fontFamily: 'BeaufortLoL, serif', color: '#fcb674' }}>Skins de {champion.name}</h1>
                 </div>
-                
-                {/* Galería de aspectos */}
                 <SeccionSkins skins={champion.skins} />
             </Container>
         </main>

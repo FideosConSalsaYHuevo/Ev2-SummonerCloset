@@ -1,15 +1,13 @@
+import { Imagen } from '../atoms/Imagen';
+import { Texto } from '../atoms/Texto';
 import '../../styles/molecules/TarjetaSkin.css';
 
-export function TarjetaSkin({ name, image }) {
+export function TarjetaSkin({ name, image, onClick }) {
     return (
-        <div className="tarjeta-skin">
-            <div className="imagen-skin-container">
-                <img src={image} alt={name} className="img-fluid" />
-            </div>
-            <div className="info-skin-container">
-                <h3>{name}</h3>
-            </div>
-        </div>
+        <article className="campeon-tarjeta" onClick={onClick} style={{ cursor: 'pointer' }}>
+            <Imagen src={image} alt={name} />
+            <Texto variant="p">{name}</Texto>
+        </article>
     );
 }
 

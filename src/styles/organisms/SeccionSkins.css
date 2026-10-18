@@ -22,3 +22,32 @@
     justify-content: center;
     padding: 10px;
 }
+
+.skin-detalle-panel {
+    background-color: #09101f;
+    border-radius: 8px;
+    padding: 24px;
+    margin-top: 24px;
+    color: #ffcb9a;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.skin-detalle-titulo {
+    color: #ffcb9a;
+    font-family: 'BeaufortLoL', 'Spiegel', serif;
+    margin-bottom: 20px;
+}
+
+.skin-imagen-splash {
+    max-height: 350px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.Detalles h5 {
+    text-align: left;
+    color: #ffcb9a;
+    font-family: 'Spiegel', 'Cinzel', serif;
+    font-size: 18px;
+    margin: 10px 0 0 0;
+}

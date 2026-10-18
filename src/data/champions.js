@@ -29,12 +29,12 @@ export const getChampions = () => ([
             },
             {
                 "id": 5,
-                "name": "D R X Aatrox",
+                "name": "DRX Aatrox",
                 "image": "/imagenes/campeones/Aatrox/DRX_Aatrox.webp"
             },
             {
                 "id": 6,
-                "name": "D R X Aatrox Prestige Edition",
+                "name": "DRX Aatrox Prestige Edition",
                 "image": "/imagenes/campeones/Aatrox/DRX_Aatrox_Prestige_Edition.webp"
             },
             {
@@ -79,11 +79,6 @@ export const getChampions = () => ([
             },
             {
                 "id": 15,
-                "name": "Splash Art Aatrox",
-                "image": "/imagenes/campeones/Aatrox/SplashArt_Aatrox.webp"
-            },
-            {
-                "id": 16,
                 "name": "Victorious Aatrox",
                 "image": "/imagenes/campeones/Aatrox/Victorious_Aatrox.webp"
             }
@@ -153,22 +148,22 @@ export const getChampions = () => ([
             },
             {
                 "id": 12,
-                "name": "K D A Ahri",
+                "name": "KDA Ahri",
                 "image": "/imagenes/campeones/Ahri/KDA_Ahri.webp"
             },
             {
                 "id": 13,
-                "name": "K D A Ahri Prestige Edition",
+                "name": "KDA Ahri Prestige Edition",
                 "image": "/imagenes/campeones/Ahri/KDA_Ahri_Prestige_Edition.webp"
             },
             {
                 "id": 14,
-                "name": "K D A Ahri Prestige Edition 29",
+                "name": "KDA Ahri Prestige Edition 29",
                 "image": "/imagenes/campeones/Ahri/KDA_Ahri_Prestige_Edition_29.webp"
             },
             {
                 "id": 15,
-                "name": "K D A A L L O U T Ahri",
+                "name": "KDA ALL OUT Ahri",
                 "image": "/imagenes/campeones/Ahri/KDA_ALL_OUT_Ahri.webp"
             },
             {
@@ -242,7 +237,7 @@ export const getChampions = () => ([
             },
             {
                 "id": 6,
-                "name": "D R X Akali",
+                "name": "DRX Akali",
                 "image": "/imagenes/campeones/Akali/DRX_Akali.webp"
             },
             {
@@ -262,22 +257,22 @@ export const getChampions = () => ([
             },
             {
                 "id": 10,
-                "name": "K D A Akali",
+                "name": "KDA Akali",
                 "image": "/imagenes/campeones/Akali/KDA_Akali.webp"
             },
             {
                 "id": 11,
-                "name": "K D A Akali Prestige Edition 2",
+                "name": "KDA Akali Prestige Edition 2",
                 "image": "/imagenes/campeones/Akali/KDA_Akali_Prestige_Edition_2.webp"
             },
             {
                 "id": 12,
-                "name": "K D A Akali Prestige Edition 29",
+                "name": "KDA Akali Prestige Edition 29",
                 "image": "/imagenes/campeones/Akali/KDA_Akali_Prestige_Edition_29.webp"
             },
             {
                 "id": 13,
-                "name": "K D A A L L O U T Akali",
+                "name": "KDA ALL OUT Akali",
                 "image": "/imagenes/campeones/Akali/KDA_ALL_OUT_Akali.webp"
             },
             {
@@ -292,7 +287,7 @@ export const getChampions = () => ([
             },
             {
                 "id": 16,
-                "name": "P R O J E C T Akali",
+                "name": "PROJECT Akali",
                 "image": "/imagenes/campeones/Akali/PROJECT_Akali.webp"
             },
             {
@@ -430,7 +425,7 @@ export const getChampions = () => ([
             },
             {
                 "id": 14,
-                "name": "S K T T1 Alistar",
+                "name": "SKT T1 Alistar",
                 "image": "/imagenes/campeones/Alistar/SKT_T1_Alistar.webp"
             },
             {
@@ -750,12 +745,12 @@ export const getChampions = () => ([
             },
             {
                 "id": 2,
-                "name": "E D G Aphelios",
+                "name": "EDG Aphelios",
                 "image": "/imagenes/campeones/Aphelios/EDG_Aphelios.webp"
             },
             {
                 "id": 3,
-                "name": "H E A R T S T E E L Aphelios",
+                "name": "HEARTSTEEL Aphelios",
                 "image": "/imagenes/campeones/Aphelios/HEARTSTEEL_Aphelios.webp"
             },
             {
@@ -859,7 +854,7 @@ export const getChampions = () => ([
             },
             {
                 "id": 15,
-                "name": "P R O J E C T Ashe",
+                "name": "PROJECT Ashe",
                 "image": "/imagenes/campeones/Ashe/PROJECT_Ashe.webp"
             },
             {
@@ -996,7 +991,7 @@ export const getChampions = () => ([
             },
             {
                 "id": 6,
-                "name": "S K T T1 Azir",
+                "name": "SKT T1 Azir",
                 "image": "/imagenes/campeones/Azir/SKT_T1_Azir.webp"
             },
             {
@@ -1404,7 +1399,7 @@ export const getChampions = () => ([
             },
             {
                 "id": 8,
-                "name": "D R X Caitlyn",
+                "name": "DRX Caitlyn",
                 "image": "/imagenes/campeones/Caitlyn/DRX_Caitlyn.jpg"
             },
             {
@@ -1498,7 +1493,7 @@ export const getChampions = () => ([
             },
             {
                 "id": 4,
-                "name": "i G Camille",
+                "name": "iG Camille",
                 "image": "/imagenes/campeones/Camille/iG_Camille.webp"
             },
             {
@@ -1715,7 +1710,7 @@ export const getChampions = () => ([
             },
             {
                 "id": 11,
-                "name": "U F O Corki",
+                "name": "UFO Corki",
                 "image": "/imagenes/campeones/Corki/UFO_Corki.webp"
             },
             {
@@ -2056,7 +2051,7 @@ export const getChampions = () => ([
             },
             {
                 "id": 12,
-                "name": "T P A Mundo",
+                "name": "TPA Mundo",
                 "image": "/imagenes/campeones/DrMundo/TPA_Mundo.webp"
             }
         ]
@@ -2100,7 +2095,7 @@ export const getChampions = () => ([
             },
             {
                 "id": 7,
-                "name": "P R O J E C T Ekko",
+                "name": "PROJECT Ekko",
                 "image": "/imagenes/campeones/Ekko/PROJECT_Ekko.webp"
             },
             {
@@ -2115,7 +2110,7 @@ export const getChampions = () => ([
             },
             {
                 "id": 10,
-                "name": "S K T T1 Ekko",
+                "name": "SKT T1 Ekko",
                 "image": "/imagenes/campeones/Ekko/SKT_T1_Ekko.webp"
             },
             {
@@ -2174,7 +2169,7 @@ export const getChampions = () => ([
             },
             {
                 "id": 7,
-                "name": "S K T T1 Elise",
+                "name": "SKT T1 Elise",
                 "image": "/imagenes/campeones/Elise/SKT_T1_Elise.webp"
             },
             {
@@ -2223,12 +2218,12 @@ export const getChampions = () => ([
             },
             {
                 "id": 5,
-                "name": "K D A A L L O U T Evelynn",
+                "name": "KDA ALL OUT Evelynn",
                 "image": "/imagenes/campeones/Evelynn/KDA_ALL_OUT_Evelynn.webp"
             },
             {
                 "id": 6,
-                "name": "K D A Evelynn",
+                "name": "KDA Evelynn",
                 "image": "/imagenes/campeones/Evelynn/KDA_Evelynn.webp"
             },
             {
@@ -2248,12 +2243,12 @@ export const getChampions = () => ([
             },
             {
                 "id": 10,
-                "name": "Prestige K D A Evelynn",
+                "name": "Prestige KDA Evelynn",
                 "image": "/imagenes/campeones/Evelynn/Prestige_KDA_Evelynn.webp"
             },
             {
                 "id": 11,
-                "name": "Prestige K D A Evelynn 2022",
+                "name": "Prestige KDA Evelynn 2022",
                 "image": "/imagenes/campeones/Evelynn/Prestige_KDA_Evelynn_2022.webp"
             },
             {
@@ -2337,7 +2332,7 @@ export const getChampions = () => ([
             },
             {
                 "id": 9,
-                "name": "H E A R T S T E E L Ezreal",
+                "name": "HEARTSTEEL Ezreal",
                 "image": "/imagenes/campeones/Ezreal/HEARTSTEEL_Ezreal.webp"
             },
             {
@@ -2387,7 +2382,7 @@ export const getChampions = () => ([
             },
             {
                 "id": 19,
-                "name": "S S G Ezreal",
+                "name": "SSG Ezreal",
                 "image": "/imagenes/campeones/Ezreal/SSG_Ezreal.webp"
             },
             {
@@ -2402,7 +2397,7 @@ export const getChampions = () => ([
             },
             {
                 "id": 22,
-                "name": "T P A Ezreal",
+                "name": "TPA Ezreal",
                 "image": "/imagenes/campeones/Ezreal/TPA_Ezreal.webp"
             }
         ]
@@ -2505,7 +2500,7 @@ export const getChampions = () => ([
             },
             {
                 "id": 8,
-                "name": "i G Fiora",
+                "name": "iG Fiora",
                 "image": "/imagenes/campeones/Fiora/iG_Fiora.webp"
             },
             {
@@ -2530,7 +2525,7 @@ export const getChampions = () => ([
             },
             {
                 "id": 13,
-                "name": "P R O J E C T Fiora",
+                "name": "PROJECT Fiora",
                 "image": "/imagenes/campeones/Fiora/PROJECT_Fiora.webp"
             },
             {
@@ -2722,7 +2717,7 @@ export const getChampions = () => ([
             },
             {
                 "id": 3,
-                "name": "F P X Gangplank",
+                "name": "FPX Gangplank",
                 "image": "/imagenes/campeones/Gangplank/FPX_Gangplank.webp"
             },
             {
@@ -2747,7 +2742,7 @@ export const getChampions = () => ([
             },
             {
                 "id": 8,
-                "name": "P R O J E C T Gangplank",
+                "name": "PROJECT Gangplank",
                 "image": "/imagenes/campeones/Gangplank/PROJECT_Gangplank.webp"
             },
             {
@@ -2920,7 +2915,7 @@ export const getChampions = () => ([
             },
             {
                 "id": 9,
-                "name": "S S G Gnar",
+                "name": "SSG Gnar",
                 "image": "/imagenes/campeones/Gnar/SSG_Gnar.webp"
             },
             {
@@ -3043,7 +3038,7 @@ export const getChampions = () => ([
             },
             {
                 "id": 4,
-                "name": "E D G Graves",
+                "name": "EDG Graves",
                 "image": "/imagenes/campeones/Graves/EDG_Graves.webp"
             },
             {
@@ -3417,17 +3412,17 @@ export const getChampions = () => ([
             },
             {
                 "id": 13,
-                "name": "Prestige P R O J E C T Irelia",
+                "name": "Prestige PROJECT Irelia",
                 "image": "/imagenes/campeones/Irelia/Prestige_PROJECT_Irelia.webp"
             },
             {
                 "id": 14,
-                "name": "Prestige P R O J E C T Irelia 2022",
+                "name": "Prestige PROJECT Irelia 2022",
                 "image": "/imagenes/campeones/Irelia/Prestige_PROJECT_Irelia_2022.webp"
             },
             {
                 "id": 15,
-                "name": "P R O J E C T Irelia",
+                "name": "PROJECT Irelia",
                 "image": "/imagenes/campeones/Irelia/PROJECT_Irelia.webp"
             },
             {
@@ -3649,7 +3644,7 @@ export const getChampions = () => ([
             },
             {
                 "id": 13,
-                "name": "S S G Jarvan I V",
+                "name": "SSG Jarvan I V",
                 "image": "/imagenes/campeones/JarvanIV/SSG_Jarvan_IV.webp"
             },
             {
@@ -3718,12 +3713,12 @@ export const getChampions = () => ([
             },
             {
                 "id": 9,
-                "name": "Neo P A X Jax",
+                "name": "Neo PAX Jax",
                 "image": "/imagenes/campeones/Jax/Neo_PAX_Jax.webp"
             },
             {
                 "id": 10,
-                "name": "P A X Jax",
+                "name": "PAX Jax",
                 "image": "/imagenes/campeones/Jax/PAX_Jax.webp"
             },
             {
@@ -3738,12 +3733,12 @@ export const getChampions = () => ([
             },
             {
                 "id": 13,
-                "name": "P R O J E C T Jax",
+                "name": "PROJECT Jax",
                 "image": "/imagenes/campeones/Jax/PROJECT_Jax.webp"
             },
             {
                 "id": 14,
-                "name": "S K T T1 Jax",
+                "name": "SKT T1 Jax",
                 "image": "/imagenes/campeones/Jax/SKT_T1_Jax.webp"
             },
             {

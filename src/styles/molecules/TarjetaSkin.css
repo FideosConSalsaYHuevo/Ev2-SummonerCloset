@@ -1,4 +1,4 @@
-.tarjeta-campeon {
+.campeon-tarjeta {
     width: 200px;
     height: auto;
     cursor: pointer;
@@ -6,16 +6,15 @@
     border-radius: 10px;
     padding-bottom: 10px;
     overflow: hidden;
-    border: 1px solid #C79B3B; /* Opcional: le agregué el borde dorado de LoL por si lo quieres */
 }
 
-.tarjeta-campeon img {
+.campeon-tarjeta img {
     width: 100%;
     height: auto;
     display: block;
 }
 
-.tarjeta-campeon p {
+.campeon-tarjeta p {
     text-align: center;
     color: #ffcb9a;
     font-family: 'Spiegel', 'Cinzel', serif;
