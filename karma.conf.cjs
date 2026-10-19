@@ -1,4 +1,6 @@
 // karma.conf.js
+const webpack = require('webpack');
+
 module.exports = function (config) {
  config.set({
    frameworks: ['jasmine'],
@@ -12,6 +14,13 @@ module.exports = function (config) {
    },
    webpack: {
      mode: 'development',
+     plugins: [
+       // Vite entrega import.meta.env, pero webpack (Karma) no lo conoce.
+       // Lo definimos aqui para que los componentes que usan BASE_URL funcionen en las pruebas.
+       new webpack.DefinePlugin({
+         'import.meta.env': JSON.stringify({ BASE_URL: '/', MODE: 'test' }),
+       }),
+     ],
      module: {
        rules: [
          {

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { getFavoritos, guardarFavoritos } from '../data/favoritos';
+import { getFavoritos, guardarFavoritos } from '../data/favoritos.js';
 
 export function useFavoritos() {
   const [favoritos, setFavoritos] = useState(getFavoritos);
