@@ -1,4 +1,5 @@
 .campeon-tarjeta {
+    position: relative;
     width: 200px;
     height: auto;
     cursor: pointer;
@@ -20,4 +21,29 @@
     font-family: 'Spiegel', 'Cinzel', serif;
     font-size: 18px;
     margin: 10px 0 0 0;
+}
+
+.favorito-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    z-index: 1;
+    width: 36px;
+    height: 36px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(9, 16, 31, 0.75);
+    color: #fcb674;
+    font-size: 22px;
+    line-height: 1;
+    cursor: pointer;
+    transition: transform 0.15s, color 0.15s;
+}
+
+.favorito-btn:hover {
+    transform: scale(1.15);
+}
+
+.favorito-btn.activo {
+    color: #ffd700;
 }

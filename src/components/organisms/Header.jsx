@@ -24,6 +24,7 @@ export function Header() {
                 <Link to="/">inicio</Link>
                 <a href="#footer">nosotros</a>
                 <a href="#footer">contacto</a>
+                <Link to="/favoritos">ver favoritos</Link>
             </nav>
 
         {usuario === null && (
