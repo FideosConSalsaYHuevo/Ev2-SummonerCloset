@@ -1,18 +1,21 @@
 import { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { Boton } from '../atoms/Boton';
 import { getUsuarioActual, cerrarSesion } from '../../data/usuarios';
 import '../../styles/organisms/Header.css';
 
 export function Header() {
     const navigate = useNavigate();
-    const [usuario, setUsuario] = useState(getUsuarioActual);
+    useLocation();
+    const [, setVersion] = useState(0);
+    const usuario = getUsuarioActual();
 
     const handleCerrarSesion = () => {
         cerrarSesion();
-        setUsuario(null);
+        setVersion((v) => v + 1); // fuerza el re-render aunque ya estemos en '/'
         navigate('/');
     };
+    
     return (
         <header className="header">
             <Link to="/">
